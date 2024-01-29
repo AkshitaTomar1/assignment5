@@ -9,13 +9,13 @@
    The most significant distinction between a dictionary and a list is that a dictionary is an unordered collection of key-value pairs, while a list is an ordered collection of elements.
 
 4. What happens if you try to access spam['foo'] if spam is {'bar': 100}?
-   If you try to access spam['foo'] and spam is {'bar': 100}, it will raise a KeyError because    the key 'foo' does not exist in the dictionary.
+   If you try to access spam['foo'] and spam is {'bar': 100}, it will raise a KeyError because the key 'foo' does not exist in the dictionary.
 
 5. If a dictionary is stored in spam, what is the difference between the expressions 'cat' in spam and 'cat' in spam.keys()?
-   If a dictionary is stored in spam, the expression 'cat' in spam checks if the key 'cat'      is present in the dictionary, whereas 'cat' in spam.keys() explicitly checks for the        presence of the key 'cat' in the dictionary keys. Both expressions essentially check for    the existence of the key.
+   If a dictionary is stored in spam, the expression 'cat' in spam checks if the key 'cat' is present in the dictionary, whereas 'cat' in spam.keys() explicitly checks for the presence of the key 'cat' in the dictionary keys. Both expressions essentially check for the existence of the key.
 
 6. If a dictionary is stored in spam, what is the difference between the expressions 'cat' in spam and 'cat' in spam.values()?
-   If a dictionary is stored in spam, the expression 'cat' in spam checks if the key 'cat'      is present in the dictionary, while 'cat' in spam.values() checks if the value 'cat' is      present in any of the dictionary values.
+   If a dictionary is stored in spam, the expression 'cat' in spam checks if the key 'cat'  is present in the dictionary, while 'cat' in spam.values() checks if the value 'cat' is  present in any of the dictionary values.
    
 7. What is a shortcut for the following code?
 if 'color' not in spam:
@@ -23,7 +23,7 @@ spam['color'] = 'black'
    spam.setdefault('color', 'black')
 
 8. How do you "pretty print" dictionary values using which module and function?
-   To "pretty print" dictionary values, you can use the pprint module and its pprint()          function. 
+   To "pretty print" dictionary values, you can use the pprint module and its pprint() function. 
    Example: 
           import pprint
           my_dict = {'key1': 'value1', 'key2': 'value2', 'key3': 'value3'}
